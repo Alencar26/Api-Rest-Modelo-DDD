@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="4.1-Data\" />
+    <Folder Include="4.2-CrossCutting\" />
+  </ItemGroup>
+
 </Project>
