@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CrossCutting\" />
+    <Folder Include="CrossCutting\IOC\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ApiRestModeloDDD.Application\ApiRestModeloDDD.Application.csproj" />
     <ProjectReference Include="..\ApiRestModeloDDD.Domain.Core\ApiRestModeloDDD.Domain.Core.csproj" />
     <ProjectReference Include="..\ApiRestModeloDDD.Domain\ApiRestModeloDDD.Domain.csproj" />
   </ItemGroup>
