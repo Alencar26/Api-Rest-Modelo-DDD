@@ -1,11 +1,10 @@
-﻿using ApiRestModeloDDD.Infra.CrossCutting.Interfaces;
-using ApiRestModeloDDD.Application.Dtos;
+﻿using ApiRestModeloDDD.Application.Dtos;
+using ApiRestModeloDDD.Application.Interfaces.Mappers;
 using ApiRestModeloDDD.Domain.Entities;
 using System.Collections.Generic;
 using System.Linq;
 
-
-namespace ApiRestModeloDDD.Infra.CrossCutting.Mapper
+namespace ApiRestModeloDDD.Application.Mappers
 {
     public class MapperProduto : IMapperProduto
     {
